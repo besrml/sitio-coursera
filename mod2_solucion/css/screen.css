@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+
+.tbl1,
+.tbl2,
+.tbl3 {
+	border: 1px solid black;
+	background-color: lightgrey;
+	float: left;
+}
+
+.col1,
+.col2,
+.col3 {
+	text-align: right;
+	border: 1px solid black;
+	width: 30px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.col1 {
+	background-color: pink;
+}
+
+.col2 {
+	background-color: firebrick;
+
+}
+
+.col3 {
+	background-color: burlywood;
+}
+
+@media screen and (min-width: 992px) {
+	.tbl1 {
+		margin: 5px 5px 5px 5px;
+ 	}
+	.tbl2 {
+			margin: 5px 5px 5px 5px;
+	}
+	.tbl3 {
+			margin: 5px 5px 5px 5px;
+	}
+	.spn1 {
+		display: inline-block;
+		width: 33%;
+	}
+
+	.spn2 {
+		display: inline-block;
+		width: 33%;
+	}
+
+	.spn3 {
+		display: inline-block;
+		width: 33%;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.tbl1 {
+		margin: 5px 5px 5px 5px;
+		width: 100%;
+ 	}
+	.tbl2 {
+			margin: 5px 5px 5px 5px;
+			width: 100%;
+	}
+	.tbl3 {
+			margin: 5px 5px 5px 5px;
+			width: 100%
+	}
+	.spn1 {
+		display: inline-block;
+		width: 49%;
+	}
+
+	.spn2 {
+		display: inline-block;
+		width: 49%;
+	}
+
+	.spn3 {
+		display: inline-block;
+		width: 98%;
+	}
+
+
+}
+
+@media screen and (max-width: 767px) {
+	.spn1 {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.spn2 {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.spn3 {
+		display: inline-block;
+		width: 100%;
+	}
+}
