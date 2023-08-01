@@ -37,19 +37,10 @@
 }
 
 @media screen and (min-width: 992px) {
-	.tbl1 {
-		margin-left: 4%;
-		margin-right: 2%;
-		width: 94%;
-	}
-	.tbl2 {
+	.tbl1,.tbl2, .tbl3 {
 		margin-left: 2%;
-		margin-right: 2%;
-		width: 96%;
-	} .tbl3 {
-		margin-left: 2%;
-		margin-right: 4%;
-		width: 94%;
+		margin-right: 0%;
+		width: 98%;
 	}
 
 	.spn1, .spn2, .spn3 {
@@ -70,7 +61,7 @@
 	 .tbl2 {
 		margin-left: 2%;
 		margin-right: 4%;
-				margin-bottom: 4%;
+		margin-bottom: 4%;
 		width: 94%;
 	}
 	
@@ -92,20 +83,13 @@
 
 	.spn3 {
 		display: block;
-		width: 99%;
+		width: 99.5%;
 	}
 
 
 }
 
 @media screen and (max-width: 767px) {
-	.tbl1, .tbl2, .tbl3{
-		margin-left: 4%;
-		margin-right: 4%;
-		margin-bottom: 4%;
-		width: 92%;
-		}
-		
 	.spn1 {
 		display: inline-block;
 		width: 100%;
