@@ -20,8 +20,8 @@
 	text-align: right;
 	border: 1px solid black;
 	width: 30px;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
+	padding: 0px 5px 0px 5px;
+	margin: 0px 5px 0px 5px;
 	border-collapse: collapse;  border-spacing: 0;
 }
 
@@ -36,6 +36,10 @@
 
 .col3 {
 	background-color: burlywood;
+}
+
+.deta {
+	padding: 2% 2% 2% 2%;
 }
 
 @media screen and (min-width: 992px) {
