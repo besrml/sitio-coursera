@@ -10,6 +10,7 @@
 .tbl3 {
 	border: 1px solid black;
 	background-color: lightgrey;
+	 border-spacing: 0px;
 	float: left;
 }
 
@@ -25,22 +26,33 @@
 
 .col1 {
 	background-color: pink;
+	border-collapse: collapse;  border-spacing: 0;
 }
 
 .col2 {
 	background-color: firebrick;
-
+	border-collapse: collapse;  border-spacing: 0;
 }
 
 .col3 {
 	background-color: burlywood;
+	border-collapse: collapse;  border-spacing: 0;
 }
 
 @media screen and (min-width: 992px) {
-	.tbl1,.tbl2, .tbl3 {
-		margin-left: 2%;
+	.tbl1 {
+		margin-left: 4%;
 		margin-right: 0%;
-		width: 98%;
+		width: 96%;
+	}
+	.tbl2 {
+		margin-left: 4%;
+		margin-right: 0%;
+		width: 96%;
+	} .tbl3 {
+		margin-left: 4%;
+		margin-right: 0%;
+		width: 96%;
 	}
 
 	.spn1, .spn2, .spn3 {
@@ -83,13 +95,20 @@
 
 	.spn3 {
 		display: block;
-		width: 99.5%;
+		width: 99%;
 	}
 
 
 }
 
 @media screen and (max-width: 767px) {
+	.tbl1, .tbl2, .tbl3{
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-bottom: 4%;
+		width: 92%;
+		}
+		
 	.spn1 {
 		display: inline-block;
 		width: 100%;
